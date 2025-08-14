@@ -33,6 +33,7 @@ Este projeto realiza a ingestão de dados públicos da **CVM (Comissão de Valor
 - pandas
 - requests
 - pyspark
+- io
 
 🚀 Execução
 

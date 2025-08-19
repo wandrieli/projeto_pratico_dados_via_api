@@ -1,0 +1,11 @@
+## ⚙️ Pré-requisitos
+
+- **Databricks** configurado
+- **Runtime com PySpark** habilitado
+
+**Bibliotecas necessárias:**
+
+- pandas
+- requests
+- pyspark
+- io

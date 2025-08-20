@@ -14,12 +14,14 @@ Este projeto realiza a ingestão de dados públicos da **CVM (Comissão de Valor
 **Endpoints utilizados:**
 
 - CVM: https://dados.cvm.gov.br/dados/FI/CAD/DADOS/cad_fi.csv
-- BrasilAPI: https://brasilapi.com.br/api/cnpj/v1/{cnpj}
+- BrasilAPI CNPJ: https://brasilapi.com.br/api/cnpj/v1/{cnpj}
+- brasilAPI UF: https://brasilapi.com.br/api/ibge/uf/v1/
 
 **Documentações:**
 
 - CVM: https://dados.cvm.gov.br/dados/FI/CAD/DADOS/
-- BrasilAPI: https://brasilapi.com.br/docs#tag/CNPJ
+- BrasilAPI CNPJ: https://brasilapi.com.br/docs#tag/CNPJ
+- BrasilAPI UF: https://brasilapi.com.br/docs#tag/IBGE
 
 ---
 
@@ -34,6 +36,8 @@ Este projeto realiza a ingestão de dados públicos da **CVM (Comissão de Valor
 - requests
 - pyspark
 - io
+- concurrent
+- time
 
 🚀 Execução
 
